@@ -13,7 +13,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '**/*.sln'
+    projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
   inputs:
